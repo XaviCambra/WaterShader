@@ -125,7 +125,7 @@
 					// return float4(0,1,0,1);
 					
 				}
-					// return float4(0,0,1,1);
+				// return float4(0,0,1,1);
 				
 				return l_Color * (1-l_DepthColor.x) * _DeepWaterColor + (l_DepthColor.x * _WaterColor);
 			}
